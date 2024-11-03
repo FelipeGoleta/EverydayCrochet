@@ -1,0 +1,48 @@
+# .NET Core files
+bin/
+obj/
+*.db
+*.db-journal
+*.pdb
+*.mdb
+*.exe
+*.dll
+.vscode/
+.DS_Store
+**/*.user
+**/*.lock.json
+
+# ASP.NET Core generated files
+wwwroot/
+appsettings*.json
+node_modules/
+
+# npm packages
+package-lock.json
+yarn.lock
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Visual Studio files
+.vscode/
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Optional: Exclude publish folder if using publish
+publish/
+
+# Optional: Include coverage results if using Jest or other test frameworks
+coverage/
